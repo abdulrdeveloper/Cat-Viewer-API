@@ -41,9 +41,11 @@ body {
 .cat-card::before {
   content: '';
   position: absolute;
-  top: 0; left: 0; right: 0;
+  top: 0;
+  left: 0;
+  right: 0;
   height: 2px;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
 }
 
 .cat-img {
@@ -62,22 +64,26 @@ body {
   margin: 0 0 15px 0;
   font-size: 2.5rem;
   font-weight: 800;
-  background: linear-gradient(to right,#ffae00, #888888);
+  background: linear-gradient(to right, #ffae00, #888888);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
   letter-spacing: 1px;
 }
 
-.cat-origin, .cat-temp {
+.cat-origin,
+.cat-temp {
   margin: 8px 0;
   font-size: 1.1rem;
   color: #aaaaaa;
   font-weight: 300;
 }
 
-.cat-origin span, .cat-temp span {
-  color: #ffae00ec;
+.cat-origin span,
+.cat-temp span {
+  background: linear-gradient(210deg, #ffae00, #8b8b8b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: 600;
 }
 
@@ -95,7 +101,7 @@ body {
   gap: 12px;
   margin-top: 25px;
   padding-top: 20px;
-  border-top: 1px solid rgba(255,255,255,0.05);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .cat-stats span {
@@ -107,7 +113,7 @@ body {
   font-weight: 400;
   border: 1px solid rgba(255, 255, 255, 0.05);
   letter-spacing: 0.5px;
-  cursor:auto;
+  cursor: auto;
 }
 
 .premium-btn {
@@ -130,7 +136,9 @@ body {
   background: linear-gradient(135deg, #131313, #111111);
   border-color: rgba(255, 255, 255, 0.3);
   transform: translateY(-3px);
-  color: #c78800;
+    background: linear-gradient(210deg,#ffae00, #8b8b8b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6), 0 0 20px rgba(255, 255, 255, 0.05);
 }
 
